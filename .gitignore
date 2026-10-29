@@ -15,7 +15,6 @@ env/
 # Dataset directories & archives
 face_mask_dataset/
 data/
-*.zip
 *.tar.gz
 *.tgz
 

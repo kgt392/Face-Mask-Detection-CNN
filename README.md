@@ -24,14 +24,21 @@ We investigate how model depth affects performance and generalizability on held-
 ## 📂 Dataset
 
 This project utilizes the **Face Mask Dataset** by Omkar Gurav available on Kaggle:
-🔗 **[Kaggle Dataset: Face Mask Dataset by Omkar Gurav](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)**
+- 🔗 **[Kaggle Dataset: Face Mask Dataset by Omkar Gurav](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)**
+- 📦 **[Direct GitHub Release Download (`face_mask_dataset.zip`)](https://github.com/kgt392/Face-Mask-Detection-CNN/releases/download/v1.0.0/face_mask_dataset.zip)** (~163 MB)
 
-### Expected Dataset Structure
-After downloading and extracting the dataset, organize the directory with two class folders:
+The dataset contains **7,553 total images** divided into two balanced classes:
+- `with_mask`: 3,725 images
+- `without_mask`: 3,828 images
+
+### Dataset Archive & Structure
+The dataset `.zip` archive (`face_mask_dataset.zip`) is included directly in this repository (via Git LFS) and attached to the [v1.0.0 Release](https://github.com/kgt392/Face-Mask-Detection-CNN/releases/tag/v1.0.0).
+
+Extracted structure:
 ```text
 face_mask_dataset/
-├── with_mask/       # Images of people wearing face masks
-└── without_mask/    # Images of people without face masks
+├── with_mask/       # Images of people wearing face masks (3,725)
+└── without_mask/    # Images of people without face masks (3,828)
 ```
 *(The notebook dynamically recognizes variations like `WithMask`/`WithoutMask`, `mask`/`no_mask`, `masked`/`unmasked`)*.
 
