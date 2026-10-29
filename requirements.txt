@@ -1,0 +1,14 @@
+# Core Deep Learning and Scientific Computing
+tensorflow>=2.10.0
+numpy>=1.22.0
+pandas>=1.4.0
+scikit-learn>=1.0.0
+
+# Visualization and Image Processing
+matplotlib>=3.5.0
+pillow>=9.0.0
+
+# Jupyter Notebook Support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=6.4.0

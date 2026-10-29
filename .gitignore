@@ -1,0 +1,32 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+
+# Dataset directories & archives
+face_mask_dataset/
+data/
+*.zip
+*.tar.gz
+*.tgz
+
+# Model weights and artifacts
+*.keras
+*.h5
+*.hdf5
+*.savedmodel/
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
